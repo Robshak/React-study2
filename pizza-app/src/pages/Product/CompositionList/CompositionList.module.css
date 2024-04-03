@@ -1,0 +1,17 @@
+.composition-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: calc(0.8em + 5px);
+    margin: 0px;
+}
+
+.list-item {
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--text-secondary-color);
+}
+
+li::marker {
+    /* content: '✝ '; */
+    font-size: 0.8em;
+}

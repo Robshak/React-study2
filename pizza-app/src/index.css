@@ -12,10 +12,18 @@
   --text-secondary-color: #5B5B5E;
   --white-color: #fff;
   --separator-color: #D4D6E0;
+  --light-separator-color: #F1F2F3;
+  --light-gray-color: #FCFCFD;
+  --gray-color: #9AA0B4;
 }
 
 body {
   font-family: var(--font);
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .app {
@@ -25,3 +33,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px #181818 inset !important;
+  -webkit-text-fill-color: #FFF;
+} */

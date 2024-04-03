@@ -1,0 +1,23 @@
+.success-page {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+}
+
+/* .img {
+    margin-bottom: 50px;
+} */
+
+.text {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    columns: var(--text-color);
+    margin-bottom: 60px;
+}
+
+.button {
+    box-shadow: 18px 9px 18px 0px #4b4a4d48;
+}

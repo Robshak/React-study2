@@ -1,0 +1,20 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0px auto;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px 45px;
+    margin-bottom: 60px;
+}

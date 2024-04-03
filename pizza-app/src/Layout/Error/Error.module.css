@@ -1,0 +1,7 @@
+.error {
+    width: 98vw;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

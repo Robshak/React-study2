@@ -26,9 +26,9 @@
 }
 
 .accent:hover {
-    background-color: var(--primary-hover-color);
+    filter: brightness(90%);
 }
 
 .accent:active {
-    background-color: var(--primary-active-color);
+    filter: brightness(80%);
 }

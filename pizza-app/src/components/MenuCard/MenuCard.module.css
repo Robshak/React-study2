@@ -1,0 +1,96 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 18.21428680419922px 18.21428680419922px 36.42857360839844px 0px #4b4a4d48;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.price-block,
+.rate-block,
+.toCart-button {
+    position: absolute;
+}
+
+.price-block {
+    left: 15px;
+    top: 15px;
+    background-color: var(--white-color);
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px #fe734c49;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+.rub {
+    color: var(--primary-color);
+}
+
+.rate-block {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    left: 15px;
+    bottom: 95px;
+    background-color: var(--white-color);
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px #fe734c49;
+}
+
+.card-rate {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.rate-img {
+    width: 15px;
+    height: 15px;
+}
+
+.toCart-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    right: 20px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 90%;
+    padding: 10px;
+    box-shadow: 0px 10px 30px 0px var(--primary-color);
+    cursor: pointer;
+}
+
+.toCart-button:hover {
+    filter: brightness(90%);
+}
+
+.toCart-button:active {
+    filter: brightness(80%);
+}
+
+.card-body {
+    padding: 20px 13px;
+}
+
+.card-name {
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.card-composition {
+    font-size: 15px;
+    color: var(--text-secondary-color);
+}
